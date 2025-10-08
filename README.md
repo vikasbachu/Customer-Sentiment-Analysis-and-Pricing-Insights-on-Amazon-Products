@@ -5,6 +5,8 @@
 This project analyzes Amazon product reviews to understand **customer sentiment** and uncover **pricing insights**.
 Using Python (NLP) and Power BI (Data Visualization), it identifies the most loved product categories and explores how ratings, discounts, and prices influence customer satisfaction.
 
+![Overview](OVERVIEW.png)
+
 ### 🧩 Objectives
 
 * Analyze **customer sentiments** from Amazon reviews.
