@@ -3,22 +3,25 @@
 ### 📊 Overview
 
 This project analyzes Amazon product reviews to understand **customer sentiment** and uncover **pricing insights**.
-Using NLP and data visualization, it identifies the most loved product categories and explores how ratings and discounts influence customer sentiment.
+Using Python (NLP) and Power BI (Data Visualization), it identifies the most loved product categories and explores how ratings, discounts, and prices influence customer satisfaction.
 
 ### 🧩 Objectives
 
 * Analyze **customer sentiments** from Amazon reviews.
 * Identify **top-performing categories** based on sentiment score.
 * Compare **discounts, ratings, and pricing patterns**.
-* Visualize insights using **matplotlib** and **seaborn**.
-
+* Visualize insights interactively using Power BI dashboards.
 ### ⚙️ Tools & Libraries
 
-* **Python**
-* **Pandas**, **NumPy** – Data manipulation
-* **NLTK**, **TextBlob** – Sentiment analysis
-* **Matplotlib**, **Seaborn** – Visualization
-* **Google Colab** – Notebook environment
+⚙️ Tools & Technologies
+* | Category      | Tools / Libraries                         |
+| ------------- | ----------------------------------------- |
+| Programming   | **Python**, **Google Colab**              |
+| Data Analysis | **Pandas**, **NumPy**                     |
+| NLP           | **NLTK**, **TextBlob**                    |
+| Visualization | **Matplotlib**, **Seaborn**, **Power BI** |
+| Data Source   | **Kaggle – Amazon Reviews Dataset**       |
+
 
 ### 📁 Dataset
 
@@ -33,16 +36,23 @@ Contains columns like:
 
 ### 📈 Key Insights
 
-* Categories with the **highest average sentiment scores** were identified.
-* **Discounts and ratings** showed correlation with customer sentiment.
-* Clean and structured visualizations help businesses **optimize pricing strategies**.
+Categories with highest average sentiment scores were identified.
+Discounts and ratings correlate with customer sentiment.
+Power BI dashboards provide interactive insights into product performance.
+Businesses can use these insights to optimize pricing and discount strategies.
 
-### 🖼️ Sample Visualization
+Power BI Report Overview
+📍 Page 1 — Sentiment Overview
+Visuals showing average sentiment scores, category-wise distribution, and rating impact, Average rating, Total Users.
 
-Top 10 categories by average sentiment score:
-*(Horizontal bar chart with Viridis color palette)*
+📍 Page 2 — Pricing vs Sentiment Analysis
+Scatter chart comparing discounted prices with sentiment scores and rating count.
 
+📍 Page 3 — Overview Table
+Table with overall details to understand data better.
 ### 🚀 How to Run
+
+image path : 
 
 1. Clone the repo
 
@@ -52,6 +62,11 @@ Top 10 categories by average sentiment score:
    ```
 2. Open the `.ipynb` file in **Google Colab** or **Jupyter Notebook**.
 3. Run all cells sequentially.
+
+📊 View Power BI Report
+
+Open the .pbix file in Microsoft Power BI Desktop.
+Explore the 3 interactive report pages for insights.
 
 ### 🧾 Author
 **Bachu Vikas**
